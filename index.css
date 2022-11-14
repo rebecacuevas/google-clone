@@ -1,4 +1,122 @@
 /* 
 Roboto,arial,sans-serif
 arial,sans-serif;
+font-family: 'Roboto', sans-serif;
+
 */
+
+/* SPACING */
+main{
+    padding: 150px 0;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+/* UPPER AND BOTTOM MENUS*/
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #333333;
+}
+
+ul li{
+    padding: 0 10px;
+}
+
+ul.upper-menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ul.bottom-menu{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.upper-left-menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.upper-right-menu-item{
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+.upper-right-menu-item-gmail{
+    margin-left: 900px;
+}
+
+.footer-bar{
+    display: flex;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 50px;
+}
+
+.bottom-left-menu-item-search{
+    padding-right: 275px;
+}
+
+.bottom-right-menu-item-carbon{
+    padding-left: 275px;
+}
+
+.sign-in-btn{
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+}
+
+/* LOGO */
+.main-logo{
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+/* SEARCH BAR */
+.search-bar{
+    margin: auto;
+    border: 1px solid #CCCCCC;
+    border-radius: 50px;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+/* BUTTONS */
+.main-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: 20px;
+}
+
+.btn:hover{
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px #333333;
+}

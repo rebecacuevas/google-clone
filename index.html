@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="">
     <link rel="stylesheet" href="index.css">
     <title>Google</title>
@@ -11,25 +12,23 @@
 <body>
     <header>
         <nav>
-            <ul class="upper-left-menu">
+            <ul class="upper-menu">
                 <li class="upper-left-menu-item"><a href="#">About</a></li>
                 <li class="upper-left-menu-item"><a href="#">Store</a></li>
-            </ul>
-            <ul class="upper-right-menu">
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#"><img src="" alt="bento-menu-icon"></a></li>
-                <li><button alt="sign-in-btn">Sign in</button></li>
+                <li class="upper-right-menu-item upper-right-menu-item-gmail"><a href="#">Gmail</a></li>
+                <li class="upper-right-menu-item"><a href="#">Images</a></li>
+                <li class="upper-right-menu-item"><a href="#"><img src="" alt="bento-menu-icon"></a></li>
+                <li><button class="sign-in-btn">Sign in</button></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img class="main-logo" src="" alt="Google's logotype">
+        <img class="main-logo" src="" alt="Google logotype">
         <div class="search-bar">
-            <img class="search-bar-icon" src="" alt="Search icon">
+            <img class="search-bar-icon" src="" alt="I">
             <input class="search-bar-input" type="text" name="search-bar" id="search-bar">
-            <button><img class="search-bar-icon" src="" alt="Search by voice colorful icon"></button>
-            <button><img class="search-bar-icon" src="" alt="Search by image colorful icon"></button>
+            <button><img class="search-bar-icon" src="" alt="I"></button>
+            <button><img class="search-bar-icon" src="" alt="I"></button>
         </div>
         <div class="main-buttons">
             <button class="btn">Google Search</button>
@@ -37,19 +36,15 @@
         </div>
     </main>
     <footer class="footer-bar">
-        <ul class="bottom-left-menu">
-            <li><a href="">How Search works</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">Advertising</a></li>
-        </ul>
-        <ul class="bottom-center-menu">
-            <li><img src="" alt="Green leaf minimal icon"></li>
-            <li><a href="">Cabron neutral since 2017</a></li>
-        </ul>
-        <ul class="bottom-right-menu">
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Settings</a></li>
+        <ul class="bottom-menu">
+            <li class="bottom-left-menu-item"><a href="">Advertising</a></li>
+            <li class="bottom-left-menu-item"><a href="">Business</a></li>
+            <li class="bottom-left-menu-item bottom-left-menu-item-search"><a href="">How Search works</a></li>
+            <li class="bottom-center-menu-item"><img src="" alt="Green leaf minimal icon"></li>
+            <li class="bottom-center-menu-item bottom-right-menu-item-carbon"><a href="">Cabron neutral since 2017</a></li>
+            <li class="bottom-right-menu-item"><a href="">Privacy</a></li>
+            <li class="bottom-right-menu-item"><a href="">Terms</a></li>
+            <li class="bottom-right-menu-item"><a href="">Settings</a></li>
         </ul>
     </footer>
 </body>
